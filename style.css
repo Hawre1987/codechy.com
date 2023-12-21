@@ -32,4 +32,16 @@ body {
 }
 
 @keyframes twinkle {
-    0% { opacity: 0.3;
+    0% { opacity: 0.3; }
+    50% { opacity: 0.8; }
+    100% { opacity: 0.3; }
+}
+
+.content {
+    text-align: center;
+}
+
+img {
+    max-width: 50%; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */
+}
