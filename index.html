@@ -25,8 +25,8 @@
             result = prompt("Unmute Audio!",true);
             if(result == 'true'){
                 const audioElement = document.getElementById("backgroundMusic");
-                audioElement.play = true;
                 audioElement.muted = false;
+                audioElement.play();
             }
             else{
                 alert("false");
