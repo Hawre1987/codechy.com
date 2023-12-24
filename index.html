@@ -24,7 +24,8 @@
         document.addEventListener("DOMContentLoaded", function(){
             result = prompt("Unmute Audio!",true);
             if(result == 'true'){
-                alert("true");
+                const audioElement = document.getElementById("backgroundMusic");
+                audioElement.muted = false;
             }
             else{
                 alert("false");
